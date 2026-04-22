@@ -77,7 +77,7 @@ export default function HomePage() {
           <div className="row" style={{ justifyContent: 'space-between' }}>
             <div>
               <h2 className="sectionTitle">Últimas preguntas</h2>
-              <p className="footerNote">Explora la comunidad y contribuye con tus conocimientos.</p>
+              <p className="footerNote">Explora la comunidad 1 y contribuye con tus conocimientos.</p>
             </div>
             <div className="badge">{filteredThreads.length} temas</div>
           </div>
