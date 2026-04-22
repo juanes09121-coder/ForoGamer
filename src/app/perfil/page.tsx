@@ -11,7 +11,7 @@ export default function ProfilePage() {
       <section className="panel" style={{ maxWidth: '720px', margin: '0 auto' }}>
         <h1 className="sectionTitle">Perfil</h1>
         <p className="footerNote">No has iniciado sesión todavía.</p>
-        <Link href="/login" className="button" style={{ display: 'inline-block', width: 'auto' }}>
+        <Link href="/iniciar-sesion" className="button" style={{ display: 'inline-block', width: 'auto' }}>
           Iniciar sesión
         </Link>
       </section>

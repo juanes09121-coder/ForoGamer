@@ -161,7 +161,7 @@ export default function HomePage() {
 
           {!user && (
             <div className="notice" style={{ marginTop: '1rem' }}>
-              Para publicar necesitas <Link href="/login">iniciar sesión</Link> o <Link href="/register">crear una cuenta</Link>.
+              Para publicar necesitas <Link href="/iniciar-sesion">iniciar sesión</Link> o <Link href="/registrar">crear una cuenta</Link>.
             </div>
           )}
         </aside>

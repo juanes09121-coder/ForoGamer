@@ -21,8 +21,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
             <nav className="siteNav">
               <Link href="/">Inicio</Link>
               <Link href="/">Foro</Link>
-              <Link href="/profile">Perfil</Link>
-              <Link href="/login">Iniciar Sesión</Link>
+              <Link href="/perfil">Perfil</Link>
+              <Link href="/iniciar-sesion">Iniciar Sesión</Link>
             </nav>
           </header>
           <main className="pageShell">{children}</main>
